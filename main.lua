@@ -14,7 +14,7 @@ QBCore.Commands.Add("car", "Spawn a vehicle", {{name = "vehicle", help = "The na
             Citizen.Wait(100)
             if waiting > 5000 then
                 lib.notify({
-                    title = "CarCommand",
+                    title = "BSRP FreeRoam - CarCommand",
                     description = "Could not load the vehicle model in time, a crash was prevented.",
                     type = "error",
                     timeout = math.random(1000, 10000)
